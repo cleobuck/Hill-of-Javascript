@@ -1,0 +1,18 @@
+{
+  "name": "drill",
+  "version": "1.0.0",
+  "description": "to make this work",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"hello\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blabla"
+  },
+  "keywords": [
+    "yes"
+  ],
+  "author": "cleo buck",
+  "license": "ISC"
+}

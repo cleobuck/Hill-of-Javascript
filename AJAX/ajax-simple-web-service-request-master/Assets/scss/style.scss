@@ -1,0 +1,52 @@
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: #333c41;
+    height: 100vh;
+    font-family: 'Fredericka the Great', cursive;
+ 
+   
+    p {
+        margin-top: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       height: 100vh;
+       vertical-align: middle;
+       top: 50%;
+       transform: translateY(-50%);
+       font-size: 1.5em;
+       text-align: center;
+    
+    }
+    button {
+
+        font-family: 'Fredericka the Great', cursive;
+        background: transparent;
+        color: white;
+        font-size: 2em;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        .fas {
+            border: none;
+        }
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+   body p { 
+       
+       font-size: 2em;
+    }
+
+
+}
+
+
+

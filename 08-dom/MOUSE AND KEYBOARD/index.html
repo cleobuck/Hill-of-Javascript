@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mouse</title>
+
+    <style>
+
+    div {
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+    }
+  
+    
+    .hoverMe {
+        background: blue;
+    }
+
+    #reset {
+        height: 100px;
+        width: 100px;
+        background: orange;
+        margin: 20px;
+    }
+
+    .position {
+        width: 150px
+        height: 100px;
+        background: green;
+        color: white;
+        font-weight: bold;
+    }
+
+    .keyboard {
+        position: absolute;
+        top: 0;
+        right: 100px;
+        margin: 20px;
+    }
+
+    #character {
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+        background: pink;
+    
+
+    }
+
+    .directionArrows {
+        height: 500px; 
+        width: 500px;
+        position: absolute;
+        background: teal;
+        right: 0;
+    }
+
+    .highlight {
+        opacity: 0.5;
+    }
+
+    #up, #down, #left, #right {
+        height: 50px;
+        width: 50px;
+        background: yellow;
+    }
+    
+    
+    </style>
+
+</head>
+<body>
+
+
+
+    <div class="hoverMe"></div>
+    <div class="hoverMe"></div>
+    <div class="hoverMe"></div>
+
+
+    <div id="reset"></div>
+
+    <div class="position" id="axe-x"></div>
+
+    <div class="position" id="axe-y"></div>
+
+
+
+
+    <div class="keyboard">
+
+        <div id="character">
+        
+        </div>
+
+        <div class="directionArrows">
+
+            <div id="up">UP</div>
+            <div id="down">DOWN</div>
+            <div id="left">LEFT</div>
+            <div id="right">RIGHT</div>
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+<script src="script.js"></script>
+</html>

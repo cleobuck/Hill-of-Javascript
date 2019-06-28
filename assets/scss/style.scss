@@ -1,7 +1,82 @@
+@mixin centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 body {
-    background: blue;
+    background: #1f2121;
     color: white;
+    @include centering;
+    flex-direction: column;
+    height: 100vh;
 }
+
+@keyframes run {
+    0% {transform: rotate(0deg);}
+     15% {transform: rotate(5deg);}
+     30% {transform: rotate(0deg);}
+      45% {transform: rotate(5deg);}
+      60% {transform: rotate(0deg);}
+      75% {transform: rotate(5deg);}
+    100% {transform: rotate(0deg)}
+}
+
+
+div {
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    table {
+        width: 100%;
+        height: 100%;
+        tr {
+            td {
+            text-align: center;
+            position: relative;
+            height: 16.67%;
+            width: 7.69%;
+            font-size: 70px;
+            font-weight: bold;
+            color: black;
+           
+          
+            svg {
+                fill: white;
+                position: absolute;
+                bottom: 10%;
+                left: -100%;
+                height: 75%;
+                width: 70%; 
+                animation: 1s run 2 forwards;
+                .runner {
+                    transform-origin: 50% 50%;
+                    transform-box: fill-box;
+                    animation: 1s run 2 forwards;
+                    position: relative;
+                    }
+                
+                }
+
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
