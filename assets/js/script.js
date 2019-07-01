@@ -29,6 +29,27 @@ tdArray.forEach(elem => {
 let svg = document.getElementsByTagName("svg")[0]
 let body = document.getElementsByTagName("body")[0];
 
+body.addEventListener("mouseover", () => {
+    if (event.target.tagName == "TD") { 
+            let textColorChange = event.target.querySelector("strong")
+            textColorChange.style.color = "#1f2121";
+    }   
+})
+
+body.addEventListener("mouseout", () => {
+    if (event.target.tagName == "TD") { 
+            let strong = event.target.querySelector("strong")
+            if (tdArray.indexOf(event.target)%2 == 0) {
+            strong.style.color =  "white";
+            } else {
+            strong.style.color = "#67c3d1";
+            }
+            count++;
+            }
+        }   
+)
+
+
 
 
 body.addEventListener("click", (event) => {
@@ -45,9 +66,7 @@ body.addEventListener("click", (event) => {
                  svg.style.fill = "#67c3d1";
             }
             event.target.appendChild(svg);
-            setTimeout( () => {
-            body.style.opacity = "0.2";
-            }, 1000)
+           
      
         
 
@@ -239,49 +258,49 @@ body.addEventListener("click", (event) => {
                     window.location = "09-misc/le pendu.odt";
                     break; 
                 case 61:
-                    window.location = "10-asynchronous/00-example";
+                    window.location = "10-asynchronous/00-example/index.html";
                     break; 
                 case 62:
-                    window.location = "10-asynchronous/01-get-posts";
+                    window.location = "10-asynchronous/01-get-posts/index.html";
                     break; 
                 case 63:
-                    window.location = "10-asynchronous/02-get-comments";
+                    window.location = "10-asynchronous/02-get-comments/index.html";
                     break; 
                 case 64:
-                    window.location = "10-asynchronous/03-handling-errors";
+                    window.location = "10-asynchronous/03-handling-errors/index.html";
                     break; 
                 case 65:
-                    window.location = "10-asynchronous/04-promise-get-posts";
+                    window.location = "10-asynchronous/04-promise-get-posts/index.html";
                     break; 
                 case 66:
-                    window.location = "10-asynchronous/05-promise-get-comments";
+                    window.location = "10-asynchronous/05-promise-get-comments/index.html";
                     break; 
                 case 67:
-                    window.location = "10-asynchronous/06-promise-handling-errors";
+                    window.location = "10-asynchronous/06-promise-handling-errors/index.html";
                     break; 
                 case 68:
-                    window.location = "10-asynchronous/07-async-get-posts";
+                    window.location = "10-asynchronous/07-async-get-posts/index.html";
                     break; 
                 case 69:
-                    window.location = "10-asynchronous/08-async-get-comments";
+                    window.location = "10-asynchronous/08-async-get-comments/index.html";
                     break; 
                 case 70:
-                    window.location = "10-asynchronous/09-async-handling-errors";
+                    window.location = "10-asynchronous/09-async-handling-errors/index.html";
                     break; 
                 case 71:
-                    window.location = "11-fetch/01-list-to-console";
+                    window.location = "11-fetch/01-list-to-console/index.html";
                     break;  
                 case 72:
-                    window.location = "11-fetch/02-list-to-template";
+                    window.location = "11-fetch/02-list-to-template/index.html";
                     break; 
                 case 73:
-                    window.location = "11-fetch/03-details";
+                    window.location = "11-fetch/03-details/index.html";
                     break; 
                 case 74:
-                    window.location = "11-fetch/04-add";
+                    window.location = "11-fetch/04-add/index.html";
                     break; 
                 case 75:
-                    window.location = "11-fetch/05-delete";
+                    window.location = "11-fetch/05-delete/index.html";
                     break; 
                 case 76:
                     window.location = "AJAX/ajax-simple-web-service-request-master/index.html";

@@ -48,43 +48,44 @@ document.addEventListener("mousemove", Coordinates);
 // ex 1: 
 
 let character = document.querySelector("#character");
+let body = document.getElementsByTagName("body")[0]
 
 let changeColor = function(event) {
     x = event.code.substring(event.code.length-1);
        
     switch(x) {
         case "0":
-        character.style.backgroundColor = "green"; 
+        body.style.backgroundColor = "#71d4fd"; 
           break;
         case "1":
-        character.style.backgroundColor = "yellow"; 
+        body.style.backgroundColor = "#354a54"; 
           break;
         case "2":
-        character.style.backgroundColor = "red"; 
+        body.style.backgroundColor = "#98afba"; 
           break;
         case "3":
-        character.style.backgroundColor = "aqua"; 
+        body.style.backgroundColor = "#98afba"; 
           break;
         case "4":
-        character.style.backgroundColor = "chocolate"; 
+        body.style.backgroundColor = "#b9885b"; 
           break;
         case "5":
-        character.style.backgroundColor = "chartreuse"; 
+        body.style.backgroundColor = "#354a54"; 
           break;
         case "6":
-        character.style.backgroundColor = "cyan"; 
+        body.style.backgroundColor = "#fa8d99"; 
           break;
         case "7":
-        character.style.backgroundColor = "coral"; 
+        body.style.backgroundColor = "#b9885b"; 
           break;
         case "8":
-        character.style.backgroundColor = "darkred"; 
+        body.style.backgroundColor = "#98afba"; 
           break;
         case "9":
-        character.style.backgroundColor = "darkorange"; 
+        body.style.backgroundColor = "#71d4fd"; 
           break;
         default:
-        character.style.backgroundColor = "darkgreen"; 
+        body.style.backgroundColor = "#55c181"; 
     
       };
     
@@ -141,6 +142,7 @@ let removeHighlight= function(event) {
 
 window.addEventListener("keydown", addHighlight);
 window.addEventListener("keyup", removeHighlight);
+
 
 
 

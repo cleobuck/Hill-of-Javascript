@@ -1,0 +1,125 @@
+body {
+    background: pink;
+}
+ div {
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+    }
+  
+    
+    .hoverMe {
+        
+
+         background: url('buble.png') center center / cover no-repeat;
+    }
+
+   
+
+    #reset {
+        height: 100px;
+        width: 100px;
+        background: url('https://making-the-web.com/sites/default/files/clipart/168308/truth-bubble-cliparts-168308-598889.png') center center / contain no-repeat;       
+        margin: 20px;
+    }
+
+    .position {
+        width: 150px
+        height: 100px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .keyboard {
+        top: 50%;
+        left: 50%;
+        height: 80%;
+        width: 30%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+       
+    }
+
+    #character {
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+        background: pink;
+    
+    }
+
+   
+
+    .highlight {
+        opacity: 0.5;
+    }
+
+    
+
+    .disappear, #positionDiv, .keyboard {
+        position: absolute;
+    }
+
+    #positionDiv {
+        background: url('compass.png') center center / cover no-repeat;     
+        top: 10%;
+        right: 5%;  
+        width: 20%;
+        height: 30%;
+        font-size: 2em;
+
+    }
+
+    #up, #down, #left, #right {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        justify-content: center;
+        color: white;
+        width: 150px;
+        height: 150px;
+        font-weight: bolder;
+        background:#71d4fd;
+        border-radius: 50%;
+        -webkit-box-shadow: -11px 11px 42px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 11px 42px -14px rgba(0,0,0,0.75);
+box-shadow: -11px 11px 42px -14px rgba(0,0,0,0.75);
+    }
+
+ #up {
+     left: 45%;
+     transform: translateX(-50%);
+ }
+ #right {
+     right: 5%;
+     top: 45%;
+     transform: translateY(-50%)
+ }
+
+  #left {
+     left: 5%;
+     top: 45%;
+     transform: translateY(-50%)
+ }
+    
+ #down {
+     left: 45%;
+     bottom: 5%;
+     transform: translateX(-50%);
+ }
+
+ #axe-x {
+     position: absolute;
+     left: -35%;
+     top: 32%;
+     
+
+ }
+
+
+ #axe-y {
+     position: absolute;
+     top: -25%;
+     left: 35%;
+
+ }
