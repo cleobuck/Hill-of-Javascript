@@ -95,7 +95,7 @@ div table tr td {
   position: relative;
   height: 16.67%;
   width: 7.69%;
-  font-size: 70px;
+  font-size: 3vw;
   font-weight: bold;
   background: transparent;
 }
@@ -127,6 +127,10 @@ div table tr td strong {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+div table tr td strong:hover {
+  color: #1f2121 !important;
 }
 
 div table tr td svg {

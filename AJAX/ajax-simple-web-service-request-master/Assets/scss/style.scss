@@ -10,6 +10,8 @@ body {
  
    
     p {
+
+        
         margin-top: 20px;
        display: flex;
        align-items: center;
@@ -19,7 +21,7 @@ body {
        vertical-align: middle;
        top: 50%;
        transform: translateY(-50%);
-       font-size: 1.5em;
+      
        text-align: center;
     
     }
@@ -36,13 +38,12 @@ body {
             border: none;
         }
     }
-
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1600px) {
    body p { 
        
-       font-size: 2em;
+       font-size: 20%;
     }
 
 
