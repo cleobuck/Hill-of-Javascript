@@ -2,11 +2,11 @@
 
 This repo is a set of exercises created by BECODE to get familiar and proficient in javascript.
 
-While climbing the JS ladder, I fell in love with this language. I makes me feel like a superhero developper. 
+While climbing the JS ladder, I fell in love with this language. The possibilities are endless and it allows for so much creativity. 
 
 Here is the link to the github page: 
 
- [https://cleobuck.github.io/JS-Hill/] (https://cleobuck.github.io/JS-Hill/)
+ [https://cleobuck.github.io/JS-Hill/](https://cleobuck.github.io/JS-Hill/)
 
 
 ### Interface 
