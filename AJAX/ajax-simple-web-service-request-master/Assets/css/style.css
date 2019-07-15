@@ -44,7 +44,7 @@ body button .fas {
   border: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1500px) {
   body p {
     font-size: 2em;
   }

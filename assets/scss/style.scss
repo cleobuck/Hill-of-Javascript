@@ -37,12 +37,13 @@ div {
             position: relative;
             height: 16.67%;
             width: 7.69%;
-            font-size: 70px;
+            font-size: 3vw;
             font-weight: bold;
             background: transparent;
             &:hover {
                 cursor: pointer;
             }
+
             span {
                 position: absolute;
                 bottom: 1%;
@@ -81,6 +82,7 @@ div {
                     }
                 
                 }
+
 
             }
         }
